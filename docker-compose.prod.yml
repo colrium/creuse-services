@@ -18,7 +18,7 @@ services:
     portainer:
         image: portainer/portainer-ce:latest
         container_name: portainer
-        command: --admin-password-file '/run/secrets/portainer_admin_password' --logo 'https://static.creusent.com/img/logo/png'
+        command: --admin-password-file '/run/secrets/portainer_admin_password' --logo 'https://static.creusent.com/img/logo.png'
         restart: unless-stopped
         dns:
             - 8.8.8.8
